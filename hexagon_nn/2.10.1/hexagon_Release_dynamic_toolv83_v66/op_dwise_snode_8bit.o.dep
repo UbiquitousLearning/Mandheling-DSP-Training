@@ -1,0 +1,2 @@
+hexagon/ops/src/op_dwise_snode_8bit.c:
+hexagon_Release_dynamic_toolv83_v66/op_dwise_snode_8bit.o: hexagon/ops/src/op_dwise_snode_8bit.c

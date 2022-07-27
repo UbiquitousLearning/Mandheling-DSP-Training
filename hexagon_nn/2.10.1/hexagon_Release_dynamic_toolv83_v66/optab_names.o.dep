@@ -1,0 +1,6 @@
+hexagon/ops/src/optab_names.c:
+interface/hexagon_nn_ops.h:
+interface/ops.def:
+hexagon_Release_dynamic_toolv83_v66/optab_names.o: hexagon/ops/src/optab_names.c
+hexagon_Release_dynamic_toolv83_v66/optab_names.o: interface/hexagon_nn_ops.h
+hexagon_Release_dynamic_toolv83_v66/optab_names.o: interface/ops.def

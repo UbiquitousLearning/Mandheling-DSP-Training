@@ -1,0 +1,40 @@
+# stand-alone executable
+
+graph_app_QAICIDLS += interface/hexagon_nn \
+                        $(DSPCV_DIR)/inc/dspCV
+ifndef GRAPHINIT
+GRAPHINIT=test/graphinit_small
+endif
+COMPILE_GRAPHINIT := $(GRAPHINIT:.c=)
+
+
+graph_app_C_SRCS += \
+    test/graph_app \
+    test/graphmain \
+    test/graphinfo \
+    test/options \
+    test/imagenet_info \
+    test/append_const_node_large_array \
+    $(COMPILE_GRAPHINIT) \
+    $(V)/hexagon_nn_stub \
+	$(V)/dspCV_stub 
+
+graph_app_C_SRCS += $(TESTDATA:.c=)
+
+ifeq ($(CDSP_FLAG), 1)
+	graph_app_DLLS += libcdsprpc
+else
+	graph_app_DLLS += libadsprpc
+endif
+graph_app_DEFINES += VERIFY_PRINT_ERROR
+
+# copy final build products to the ship directory
+BUILD_COPIES = \
+   interface/hexagon_nn.idl \
+   interface/hexagon_nn_ops.h \
+   interface/ops.def \
+   $(DLLS) \
+   $(EXES) \
+   $(LIBS) \
+   $(SHIP_DIR)/ 
+

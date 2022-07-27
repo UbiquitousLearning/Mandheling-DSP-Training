@@ -1,0 +1,590 @@
+Archive member included to satisfy reference by file (symbol)
+
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.a(rpcmem_android.o)
+                              android_Release_aarch64/graph_app.o (rpcmem_alloc)
+
+Allocating common symbols
+Common symbol       size              file
+
+num_labels          0x4               android_Release_aarch64/imagenet_info.o
+categories          0x8               android_Release_aarch64/imagenet_info.o
+output_vals         0x1000            android_Release_aarch64/graphmain.o
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ .llvm_addrsig  0x0000000000000000        0x7 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/graph_app.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/graphmain.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/graphinfo.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/options.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/imagenet_info.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/append_const_node_large_array.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/graphinit_small.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/hexagon_nn_stub.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 android_Release_aarch64/dspCV_stub.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.a(rpcmem_android.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/liblog.so
+START GROUP
+LOAD android_Release_aarch64/graph_app.o
+LOAD android_Release_aarch64/graphmain.o
+LOAD android_Release_aarch64/graphinfo.o
+LOAD android_Release_aarch64/options.o
+LOAD android_Release_aarch64/imagenet_info.o
+LOAD android_Release_aarch64/append_const_node_large_array.o
+LOAD android_Release_aarch64/graphinit_small.o
+LOAD android_Release_aarch64/hexagon_nn_stub.o
+LOAD android_Release_aarch64/dspCV_stub.o
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.a
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/remote/ship/android_Release_aarch64//libcdsprpc.so
+END GROUP
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/libm.so
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/libc.so
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/libdl.so
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/libgcc.a
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/libcompiler_rt-extras.a
+LOAD /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/libgcc_real.a
+                [!provide]                        PROVIDE (__executable_start, 0x0)
+                0x0000000000000200                . = (0x0 + SIZEOF_HEADERS)
+
+.interp         0x0000000000000200       0x15
+ *(.interp)
+ .interp        0x0000000000000200       0x15 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.note.android.ident
+                0x0000000000000218       0x98
+ .note.android.ident
+                0x0000000000000218       0x98 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x00000000000002b0      0x1ac
+ *(.hash)
+ .hash          0x00000000000002b0      0x1ac /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000000000000460      0x660
+ *(.dynsym)
+ .dynsym        0x0000000000000460      0x660 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.dynstr         0x0000000000000ac0      0x2dd
+ *(.dynstr)
+ .dynstr        0x0000000000000ac0      0x2dd /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.gnu.version    0x0000000000000d9e       0x88
+ *(.gnu.version)
+ .gnu.version   0x0000000000000d9e       0x88 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.gnu.version_d  0x0000000000000e28        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000e28        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.gnu.version_r  0x0000000000000e28       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000e28       0x40 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.rela.dyn       0x0000000000000e68     0xd260
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data     0x0000000000000e68     0xbc28 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ .rela.data.rel.ro
+                0x000000000000ca90     0x14d0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x000000000000df60      0x168 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x000000000000e0c8        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+
+.rela.plt       0x000000000000e0c8      0x468
+ *(.rela.plt)
+ .rela.plt      0x000000000000e0c8      0x468 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                [!provide]                        PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end, .)
+
+.init
+ *(SORT(.init))
+
+.plt            0x000000000000e530      0x310
+ *(.plt)
+ .plt           0x000000000000e530      0x310 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ *(.iplt)
+
+.text           0x000000000000e840     0x64dc
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000000000000e840       0x84 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                0x000000000000e840                _start
+                0x000000000000e890                __atexit_handler_wrapper
+                0x000000000000e89c                atexit
+                0x000000000000e8b8                pthread_atfork
+ .text          0x000000000000e8c4        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+ .text          0x000000000000e8c4      0x9d8 android_Release_aarch64/graph_app.o
+                0x000000000000e8c4                fastrpc_setup
+                0x000000000000e928                fastrpc_teardown
+                0x000000000000e948                GetTime
+                0x000000000000e97c                uint8_to_float
+                0x000000000000ea08                main
+ .text          0x000000000000f29c      0xd50 android_Release_aarch64/graphmain.o
+                0x000000000000f29c                print_log
+                0x000000000000f31c                print_graph
+                0x000000000000f39c                graph_setup
+                0x000000000000f4e4                find_max_idx
+                0x000000000000f544                graph_execute
+                0x000000000000f770                cycle_sorter
+                0x000000000000f788                graph_perfdump
+                0x000000000000f970                graph_get_all_perf
+                0x000000000000fda0                graph_get_a_perf
+                0x000000000000ffe8                graph_teardown
+ .text          0x000000000000ffec      0x158 android_Release_aarch64/graphinfo.o
+                0x000000000000ffec                info_for_debug
+                0x000000000001009c                info_id2name
+                0x00000000000100f0                info_id2opname
+ .text          0x0000000000010144      0xa24 android_Release_aarch64/options.o
+                0x0000000000010144                do_option
+                0x0000000000010534                option_print_help
+                0x00000000000108d8                option_init
+                0x000000000001092c                is_option_flag
+ .text          0x0000000000010b68      0x478 android_Release_aarch64/imagenet_info.o
+                0x0000000000010b68                indexed_data_sort
+                0x0000000000010b80                load_labels
+                0x0000000000010ca4                free_labels
+                0x0000000000010d0c                top5
+ .text          0x0000000000010fe0       0xb8 android_Release_aarch64/append_const_node_large_array.o
+                0x0000000000010fe0                hexagon_nn_append_empty_const_node_large_array
+ .text          0x0000000000011098      0x110 android_Release_aarch64/graphinit_small.o
+                0x0000000000011098                init_graph
+ .text          0x00000000000111a8     0x264c android_Release_aarch64/hexagon_nn_stub.o
+                0x00000000000111a8                _hexagon_nn_atomic_CompareAndExchange
+                0x00000000000111dc                _hexagon_nn_handle
+                0x0000000000011280                hexagon_nn_skel_invoke
+                0x0000000000011340                hexagon_nn_config
+                0x00000000000113f0                hexagon_nn_config_with_options
+                0x00000000000114ec                hexagon_nn_graph_config
+                0x00000000000115f8                hexagon_nn_get_dsp_offset
+                0x00000000000116dc                hexagon_nn_init
+                0x00000000000117b4                hexagon_nn_set_debug_level
+                0x0000000000011884                hexagon_nn_snpprint
+                0x0000000000011974                hexagon_nn_getlog
+                0x0000000000011a64                hexagon_nn_append_node
+                0x0000000000011b88                hexagon_nn_append_const_node
+                0x0000000000011c9c                hexagon_nn_append_empty_const_node
+                0x0000000000011da4                hexagon_nn_populate_const_node
+                0x0000000000011e9c                hexagon_nn_prepare
+                0x0000000000011f68                hexagon_nn_execute
+                0x00000000000120e4                hexagon_nn_teardown
+                0x00000000000121b0                hexagon_nn_variable_read
+                0x0000000000012304                hexagon_nn_variable_write
+                0x0000000000012424                hexagon_nn_variable_write_flat
+                0x000000000001251c                hexagon_nn_set_powersave_level
+                0x00000000000125e8                hexagon_nn_set_powersave_details
+                0x00000000000126c8                hexagon_nn_get_perfinfo
+                0x00000000000127d0                hexagon_nn_reset_perfinfo
+                0x00000000000128a0                hexagon_nn_last_execution_cycles
+                0x00000000000129a0                hexagon_nn_version
+                0x0000000000012a78                hexagon_nn_op_name_to_id
+                0x0000000000012b74                hexagon_nn_op_id_to_name
+                0x0000000000012c70                hexagon_nn_get_num_nodes_in_graph
+                0x0000000000012d58                hexagon_nn_disable_dcvs
+                0x0000000000012e08                hexagon_nn_GetHexagonBinaryVersion
+                0x0000000000012ee0                hexagon_nn_PrintLog
+                0x0000000000012fb8                hexagon_nn_execute_new
+                0x0000000000013338                hexagon_nn_init_with_info
+                0x000000000001342c                hexagon_nn_get_nodetype
+                0x000000000001352c                hexagon_nn_multi_execution_cycles
+                0x000000000001362c                hexagon_nn_get_power
+                0x00000000000136fc                hexagon_nn_set_graph_option
+ .text          0x00000000000137f4      0x4b8 android_Release_aarch64/dspCV_stub.o
+                0x00000000000137f4                _dspCV_atomic_CompareAndExchange
+                0x0000000000013828                _dspCV_handle
+                0x00000000000138cc                dspCV_skel_invoke
+                0x000000000001398c                dspCV_initQ6
+                0x0000000000013a3c                dspCV_deinitQ6
+                0x0000000000013aec                dspCV_initQ6_with_attributes
+                0x0000000000013bc8                dspCV_getQ6_concurrency_attributes
+ .text          0x0000000000013cac     0x1070 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.a(rpcmem_android.o)
+                0x0000000000013cac                rpcmem_init
+                0x0000000000013dac                rpcmem_deinit
+                0x0000000000013de8                rpcmem_alloc_internal
+                0x00000000000149d0                rpcmem_alloc
+                0x00000000000149d4                rpcmem_free_internal
+                0x0000000000014bf8                rpcmem_free
+                0x0000000000014bfc                rpcmem_to_fd_internal
+                0x0000000000014c8c                rpcmem_to_fd
+ *(.gnu.warning)
+
+.fini
+ *(SORT(.fini))
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000000014d20     0x784a
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000014d20        0x4 android_Release_aarch64/graph_app.o
+                                          0x8 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000014d24      0x1de android_Release_aarch64/graph_app.o
+ *fill*         0x0000000000014f02        0xe 
+ .rodata.str1.16
+                0x0000000000014f10       0xc0 android_Release_aarch64/graph_app.o
+ .rodata.str1.4
+                0x0000000000014fd0       0x43 android_Release_aarch64/graph_app.o
+ *fill*         0x0000000000015013        0x1 
+ .rodata.cst4   0x0000000000015014        0x8 android_Release_aarch64/graphmain.o
+ *fill*         0x000000000001501c        0x4 
+ .rodata.cst8   0x0000000000015020        0x8 android_Release_aarch64/graphmain.o
+ .rodata.str1.1
+                0x0000000000015028     0x200a android_Release_aarch64/graphmain.o
+                                       0x2020 (size before relaxing)
+ *fill*         0x0000000000017032        0x2 
+ .rodata        0x0000000000017034        0xc android_Release_aarch64/graphmain.o
+                0x0000000000017034                PMU_MAX_EVENTS
+ .rodata.str1.16
+                0x0000000000017040       0xb2 android_Release_aarch64/graphmain.o
+ *fill*         0x00000000000170f2        0x2 
+ .rodata.str1.4
+                0x00000000000170f4        0xc android_Release_aarch64/graphmain.o
+ .rodata.str1.1
+                0x0000000000017100        0x2 android_Release_aarch64/graphinfo.o
+ .rodata.str1.4
+                0x0000000000017100       0x10 android_Release_aarch64/graphinfo.o
+                                          0xe (size before relaxing)
+ .rodata.cst16  0x0000000000017110       0x10 android_Release_aarch64/options.o
+ .rodata.cst8   0x0000000000017120       0x18 android_Release_aarch64/options.o
+ .rodata.str1.1
+                0x0000000000017138      0x562 android_Release_aarch64/options.o
+                                        0x65d (size before relaxing)
+ *fill*         0x000000000001769a        0x6 
+ .rodata.str1.16
+                0x00000000000176a0       0x3b android_Release_aarch64/options.o
+ *fill*         0x00000000000176db        0x5 
+ .rodata.cst16  0x00000000000176e0       0x10 android_Release_aarch64/imagenet_info.o
+ .rodata.str1.1
+                0x00000000000176f0     0x2c50 android_Release_aarch64/imagenet_info.o
+                                       0x2d63 (size before relaxing)
+ .rodata.str1.16
+                0x000000000001a340       0x30 android_Release_aarch64/imagenet_info.o
+                                         0x24 (size before relaxing)
+ .rodata.str1.1
+                0x000000000001a370       0x43 android_Release_aarch64/append_const_node_large_array.o
+ .rodata.str1.1
+                0x000000000001a3b3       0x2b android_Release_aarch64/graphinit_small.o
+ .rodata        0x000000000001a3de      0x5c7 android_Release_aarch64/hexagon_nn_stub.o
+ .rodata.str1.1
+                0x000000000001a9a5        0xb android_Release_aarch64/hexagon_nn_stub.o
+ .rodata        0x000000000001a9b0       0x6a android_Release_aarch64/dspCV_stub.o
+ .rodata.str1.1
+                0x000000000001aa1a        0x6 android_Release_aarch64/dspCV_stub.o
+ .rodata.str1.1
+                0x000000000001aa20     0x1b4a /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.a(rpcmem_android.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000002cc48                . = DATA_SEGMENT_ALIGN (0x10000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000002cc48       0x10
+                [!provide]                        PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+ .preinit_array
+                0x000000000002cc48        0x8 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                0x000000000002cc48                __PREINIT_ARRAY__
+ .preinit_array
+                0x000000000002cc50        0x8 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+                [!provide]                        PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000000000002cc58       0x10
+                [!provide]                        PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000002cc58        0x8 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                0x000000000002cc58                __INIT_ARRAY__
+ .init_array    0x000000000002cc60        0x8 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+                [!provide]                        PROVIDE (__init_array_end, .)
+
+.fini_array     0x000000000002cc68       0x10
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000002cc68        0x8 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                0x000000000002cc68                __FINI_ARRAY__
+ .fini_array    0x000000000002cc70        0x8 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtend_android.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x000000000002cc78     0x10e0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x000000000002cc78      0xec0 android_Release_aarch64/hexagon_nn_stub.o
+                0x000000000002cd98                hexagon_nn_slim
+ .data.rel.ro   0x000000000002db38      0x220 android_Release_aarch64/dspCV_stub.o
+                0x000000000002db58                dspCV_slim
+
+.dynamic        0x000000000002dd58      0x210
+ *(.dynamic)
+ .dynamic       0x000000000002dd58      0x210 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                0x000000000002dd58                _DYNAMIC
+
+.got            0x000000000002df68       0x80
+ *(.got)
+ .got           0x000000000002df68       0x80 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                0x000000000002df68                _GLOBAL_OFFSET_TABLE_
+ *(.igot)
+                0x000000000002dfe8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x000000000002dfe8      0x190
+ *(.got.plt)
+ .got.plt       0x000000000002dfe8      0x190 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ *(.igot.plt)
+
+.data           0x000000000002e178     0x3f30
+                [!provide]                        PROVIDE (__data_start, .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000002e178     0x1eb8 android_Release_aarch64/graphmain.o
+                0x000000000002e178                pmu_events_v66
+                0x000000000002ece8                pmu_events_v65
+                0x000000000002f818                pmu_events_v60
+                0x0000000000030018                PMU_EVENT_ARRAYS
+ .data          0x0000000000030030     0x2000 android_Release_aarch64/imagenet_info.o
+                0x0000000000030030                default_categories
+ .data          0x0000000000032030       0x70 android_Release_aarch64/graphinit_small.o
+ .data          0x00000000000320a0        0x4 android_Release_aarch64/hexagon_nn_stub.o
+ .data          0x00000000000320a4        0x4 android_Release_aarch64/dspCV_stub.o
+
+.data1
+ *(.data1)
+                0x00000000000320a8                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x00000000000320a8                __bss_start = .
+                0x00000000000320a8                __bss_start__ = .
+
+.bss            0x0000000000032100     0x1090
+ *(.dynbss)
+ .dynbss        0x0000000000032100        0x0 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000032100        0x8 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                0x0000000000032100                __dso_handle
+ .bss           0x0000000000032108        0xc android_Release_aarch64/graphinfo.o
+ *fill*         0x0000000000032114        0xc 
+ .bss           0x0000000000032120       0x50 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.a(rpcmem_android.o)
+ *(COMMON)
+ *fill*         0x0000000000032170       0x10 
+ COMMON         0x0000000000032180     0x1000 android_Release_aarch64/graphmain.o
+                0x0000000000032180                output_vals
+ COMMON         0x0000000000033180       0x10 android_Release_aarch64/imagenet_info.o
+                0x0000000000033180                num_labels
+                0x0000000000033188                categories
+                0x0000000000033190                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000033190                _bss_end__ = .
+                0x0000000000033190                __bss_end__ = .
+                0x0000000000033190                . = ALIGN (0x8)
+                0x0000000000033190                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000033190                . = ALIGN (0x8)
+                0x0000000000033190                __end__ = .
+                0x0000000000033190                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000000033190                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x107
+ *(.comment)
+ .comment       0x0000000000000000      0x107 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/tools/android-ndk-r19c/platforms/android-26/arch-arm64/usr/lib/crtbegin_dynamic.o
+                                        0x108 (size before relaxing)
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/graph_app.o
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/graphmain.o
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/graphinfo.o
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/options.o
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/imagenet_info.o
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/append_const_node_large_array.o
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/graphinit_small.o
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/hexagon_nn_stub.o
+ .comment       0x0000000000000107      0x108 android_Release_aarch64/dspCV_stub.o
+ .comment       0x0000000000000107      0x108 /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.a(rpcmem_android.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.ARM.attributes
+ *(.ARM.attributes)
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(android_Release_aarch64/graph_app elf64-littleaarch64)

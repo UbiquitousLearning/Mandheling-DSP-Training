@@ -1,0 +1,142 @@
+hexagon/src/interface.c:
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn.h:
+interface/hexnn_graph_wrapper_interface.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_farf.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_power.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_mem.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_perf.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdErr.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/sys/types.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_debug.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_consts.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_alloc.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_futex.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_mutex.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_pipe.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_printf.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_assert.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_thread.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_trace.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_cycles.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_profile.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_sem.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_cond.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_barrier.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_fastint.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_allsignal.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_anysignal.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_signal.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_rmutex.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_pimutex.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_signal2.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_rmutex2.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_pimutex2.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_int.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_lifo.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_power.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_event.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_pmu.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_tlb.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_vtlb.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_memory.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_sclk.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_space.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_process.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_timer.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_tls.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_thread_context.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_hvx.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_mailbox.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_island.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi_proxy.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_l2cfg.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_mmap.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_isr.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_busywait.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_ecc.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_callback.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_error.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_except.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_mq.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/bits/confname.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/hooks/unistd.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/pthread_types.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_types.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi_constants.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi_imacros.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi_driver.h:
+hexagon_Release_dynamic_toolv83_v66/interface.o: hexagon/src/interface.c
+hexagon_Release_dynamic_toolv83_v66/interface.o: hexagon_Release_dynamic_toolv83_v66/hexagon_nn.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: interface/hexnn_graph_wrapper_interface.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_farf.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_power.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_mem.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_perf.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdErr.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/sys/types.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/HAP_debug.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_consts.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_alloc.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_futex.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_mutex.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_pipe.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_printf.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_assert.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_thread.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_trace.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_cycles.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_profile.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_sem.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_cond.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_barrier.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_fastint.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_allsignal.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_anysignal.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_signal.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_rmutex.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_pimutex.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_signal2.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_rmutex2.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_pimutex2.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_int.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_lifo.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_power.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_event.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_pmu.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_tlb.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_vtlb.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_memory.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_sclk.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_space.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_process.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_timer.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_tls.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_thread_context.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_hvx.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_mailbox.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_island.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi_proxy.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_l2cfg.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_mmap.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_isr.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_busywait.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_ecc.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_callback.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_error.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_except.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_mq.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/bits/confname.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/hooks/unistd.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/pthread_types.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_types.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi_constants.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi_imacros.h
+hexagon_Release_dynamic_toolv83_v66/interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/qurt/qurt_qdi_driver.h

@@ -1,0 +1,2 @@
+hexagon/ops/src/op_l2normalize_8_ref.c:
+hexagon_Release_dynamic_toolv83_v66/op_l2normalize_8_ref.o: hexagon/ops/src/op_l2normalize_8_ref.c

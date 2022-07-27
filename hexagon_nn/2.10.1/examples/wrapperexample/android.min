@@ -1,0 +1,52 @@
+# Definitions
+APPNAME = wrapperexample
+RPCLIB = libadsprpc
+HEXNN_STUBDIR = $(HEXNN_ROOT)/stub
+HEXNN_HOSTDIR = $(HEXNN_ROOT)/host
+HEXNN_INTERFACE = $(HEXNN_ROOT)/interface
+ANDROID_GLIBSTDC_DIR = $(ANDROID_NDK_ROOT)/sources/cxx-stl/gnu-libstdc++/4.9/
+
+# SMART WRAPPER FLAG to turn on GRAPH_WRAPPER
+ifeq ($(SMART_WRAPPER), 1)
+	GRAPH_WRAPPER = 1
+endif
+
+# SOURCES
+$(APPNAME)_C_SRCS += src/wrapperexample
+ifeq ($(GRAPH_WRAPPER), 1)
+    $(APPNAME)_C_SRCS += $(HEXNN_HOSTDIR)/hexnn_dsp_api_impl $(HEXNN_HOSTDIR)/hexnn_dsp_domains_api_impl
+    $(APPNAME)_CPP_SRCS += $(HEXNN_HOSTDIR)/hexnn_graph_wrapper
+    
+    # SMART WRAPPER
+	ifeq ($(SMART_WRAPPER), 1)
+		$(APPNAME)_C_SRCS += $(HEXNN_HOSTDIR)/hexnn_dsp_smart_wrapper_api
+	else
+		$(APPNAME)_C_SRCS += $(HEXNN_HOSTDIR)/hexnn_dsp_api $(HEXNN_HOSTDIR)/hexnn_dsp_domains_api
+	endif
+else
+    $(APPNAME)_C_SRCS += $(HEXNN_STUBDIR)/hexagon_nn_stub
+endif
+
+# HEADERS
+INCDIRS+=$(HEXNN_STUBDIR)
+ifeq ($(GRAPH_WRAPPER), 1)
+	INCDIRS+=$(HEXNN_INTERFACE) $(HEXNN_HOSTDIR)
+endif
+
+# LIBRARIES
+$(APPNAME)_LIBS += rpcmem
+$(APPNAME)_DLLS += $(RPCLIB)
+$(APPNAME)_LD_FLAGS += -llog
+$(APPNAME)_DEFINES += VERIFY_PRINT_ERROR
+
+# Android NDK Dependencies
+ifeq ($(GRAPH_WRAPPER), 1)
+	ifeq ($(V_aarch64), 1)
+	    $(APPNAME)_DLLS += $(ANDROID_GLIBSTDC_DIR)/libs/arm64-v8a/libgnustl_shared
+	else
+	    $(APPNAME)_DLLS += $(ANDROID_GLIBSTDC_DIR)/libs/armeabi-v7a/libgnustl_shared
+	endif
+endif
+
+# EXE
+BUILD_EXES+=$(APPNAME)

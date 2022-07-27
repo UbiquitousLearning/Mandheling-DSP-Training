@@ -1,0 +1,2 @@
+hexagon/asm_src/fullconnlayerbatch1_h.S:
+hexagon_Release_dynamic_toolv83_v66/fullconnlayerbatch1_h.o: hexagon/asm_src/fullconnlayerbatch1_h.S

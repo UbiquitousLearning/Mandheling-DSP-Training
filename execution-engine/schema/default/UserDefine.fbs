@@ -1,0 +1,69 @@
+include "CaffeOp.fbs";
+include "Tensor.fbs";
+include "Type.fbs";
+
+namespace MNN;
+table TensorConvertInfo {
+    source:MNN_DATA_FORMAT;
+    dest:MNN_DATA_FORMAT;
+}
+
+enum SampleMode : byte {
+    BILINEAR=0,
+    NEAREST
+}
+enum BorderMode : byte {
+    ZEROS=0,
+    CLAMP,
+    REFLECTION
+}
+
+table GridSample {
+    mode:SampleMode;
+    paddingMode:BorderMode;
+    alignCorners:bool=false;
+}
+
+table NITI_CONV_Int8 {
+    common: Convolution2DCommon;
+    weight:[int8];
+    wscale:int8;
+    nbits:int8;
+}
+
+table NITI_Relu_Int8 {
+    dataType:DataType=DT_INT8;
+}
+
+table NITI_Pool_Int8 {
+    padX:int;
+    padY:int;
+    isGlobal:bool=false;
+    kernelX:int;
+    kernelY:int;
+    strideX:int;
+    strideY:int;
+    type:PoolType;
+    padType:PoolPadType;
+    dataType:DataType=DT_FLOAT;
+    ceilModel:bool=true;
+    pads:[int];
+    countType:AvgPoolCountType;
+    ow:int;
+    oh:int;
+}
+
+table NITI_ELTWISE_Int8 {
+    type:EltwiseType;
+}
+
+table NITI_LOSS_Int8 {
+    batch:int;
+    channel:int;
+    height:int;
+    width:int;
+}
+
+table NITI_PAD_Int8 {
+    pad:int;
+}

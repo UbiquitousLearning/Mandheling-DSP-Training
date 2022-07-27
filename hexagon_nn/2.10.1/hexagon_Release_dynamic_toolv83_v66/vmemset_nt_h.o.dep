@@ -1,0 +1,2 @@
+hexagon/asm_src/vmemset_nt_h.S:
+hexagon_Release_dynamic_toolv83_v66/vmemset_nt_h.o: hexagon/asm_src/vmemset_nt_h.S

@@ -1,0 +1,2 @@
+hexagon/asm_src/lrn_d32_hvx.S:
+hexagon_Release_dynamic_toolv83_v66/lrn_d32_hvx.o: hexagon/asm_src/lrn_d32_hvx.S

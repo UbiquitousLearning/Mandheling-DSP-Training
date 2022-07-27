@@ -1,0 +1,10 @@
+test/global_interface.c:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdErr.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h:
+android_Release_aarch64/global_interface.o: test/global_interface.c
+android_Release_aarch64/global_interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h
+android_Release_aarch64/global_interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/rpcmem/android_Release_aarch64/ship/rpcmem.h
+android_Release_aarch64/global_interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdErr.h
+android_Release_aarch64/global_interface.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h

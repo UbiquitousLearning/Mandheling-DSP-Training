@@ -1,0 +1,2 @@
+hexagon/asm_src/gvconv2dbbw_h.S:
+hexagon_Release_dynamic_toolv83_v66/gvconv2dbbw_h.o: hexagon/asm_src/gvconv2dbbw_h.S

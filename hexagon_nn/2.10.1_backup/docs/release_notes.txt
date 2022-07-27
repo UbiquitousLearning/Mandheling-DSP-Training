@@ -1,0 +1,111 @@
+Hexagon-nn for DSP
+
+Hexagon-nn is a DSP offload framework for running neural networks on the Qualcomm Hexagon(TM) DSP
+
+These release notes are for version 2.9.5 of the hexagon-nn library.  Changes since version 2.6.0 are documented in these release notes.
+
+Release notes document significant changes only.  Minor changes are not documented.
+
+
+2.10.1
+=====
+Bug fixes
+---------
+* Return correct result in OP topk_f for large k values
+* Add checks and bugfixes for execute with info (#453)
+* Correlation1d Implement one-dimensional correlation algorithm
+* Mobilenet Quantized test
+* Group convolution vts failure
+* Accuracy issue with soft NMS 
+* Allow average pool to grow scratch 
+* Crash caused by Cts GROUPED_CONV_2D_V1_2_32
+* VTS Prelu failures
+* FSSD accuracy issues
+* Numerous Android NN CTS test failures
+
+Features
+--------
+* ANEURALNETWORKS_L2NORMALIZATION optimization
+* DSP core support for tf.unstack op
+* Support weight transposition via specialized constant propagation
+
+2.9.5
+=====
+Bug fixes
+---------
+* Gather op fixes
+* Compare ops for Android NN require full requantization to avoid rounding errors
+* Address Resize Bilinear Android NN failures
+
+Features
+--------
+* Remove glue from hexagon_nn libs and move to make.d
+* d32 versions of ARGMAX and ARGMIN
+* Axis Aligned BBox Transform for Android NN
+* Embedding Lookup for Android NN
+* ROI Pooling for Android NN
+* Workaround for HAP_Power client limit
+* Init time optimization using "graph wrapper"
+* Do not use fake VTCM on V66.  Error out instead.
+* Various 16-bit op updates.
+* Misc updates to tflite/dumper.cc
+
+2.8.3
+=====
+Bug fixes
+---------
+* Sub op fix for Android NN
+
+2.8.2 
+=====
+Features
+--------
+* Depth to space (d32) supports blocksize (h/w) = 8
+
+2.8.0
+=====
+Bug Fixes
+---------
+* ImageTransform accuracy for HACNN 
+
+Features
+--------
+* Prelu for Android NN supports static output min/max
+* Dilated convolution support for Android NN
+* Tile for Android NN
+* Strided Slice for Android NN
+* Compare operations for Android NN
+* Further optimizations for MultiClassNms
+* Moments op.
+* Various 16-bit enhancements
+* Ceil_f, Round_f, Floor_f
+* Bitwise operations (And, Or, Xor, Not)
+* Reduce op fixes
+* Improve performance of add/sub/mul_d32
+
+
+2.7.0
+======
+Bug fixes
+----------
+* Address accuracy regression in concat layer
+* Can't execute more than 4 networks concurrently
+* Fixes for group convolution accuracy and stability
+* Fix some issues in prepare() handling for GROUP_CONV, TRANSPOSE_CONV and AXISSHUFFLE
+* Fix HeatMapMaxKeypoint to follow reference code more accurately.
+
+Features
+---------
+* Support explicit padding for transpose conv
+* Support PRELU op for AndroidNN
+* Option to configure HAP_mem grow size
+* Support REDUCE MEAN for Android NN 
+* Initial support for ROIAlign in Android NN
+* Further optimizations to MultiClassNms
+* Support padding for Android NN
+* Support Resize Nearest Neighbour for Android NN
+* Initial support for fastRPC DOMAINS
+* Graph options support
+* Various prepare() optimizations
+* Various fixes and enhancements to 16-bit 
+* Per-channel processing of weights and quantization for V65.

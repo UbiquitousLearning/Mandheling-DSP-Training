@@ -1,0 +1,2 @@
+hexagon/src/nn_pipe_portable.c:
+hexagon_Release_dynamic_toolv83_v66/nn_pipe_portable.o: hexagon/src/nn_pipe_portable.c

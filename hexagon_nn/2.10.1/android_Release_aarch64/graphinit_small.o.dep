@@ -1,0 +1,12 @@
+test/graphinit_small.c:
+android_Release_aarch64/hexagon_nn.h:
+interface/hexagon_nn_ops.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h:
+interface/ops.def:
+android_Release_aarch64/graphinit_small.o: test/graphinit_small.c
+android_Release_aarch64/graphinit_small.o: android_Release_aarch64/hexagon_nn.h
+android_Release_aarch64/graphinit_small.o: interface/hexagon_nn_ops.h
+android_Release_aarch64/graphinit_small.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h
+android_Release_aarch64/graphinit_small.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h
+android_Release_aarch64/graphinit_small.o: interface/ops.def

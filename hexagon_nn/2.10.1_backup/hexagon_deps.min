@@ -1,0 +1,20 @@
+SUPPORTED_VS = $(default_VS)
+
+# must list all the dependencies of this project
+DEPENDENCIES = \
+  RPCMEM \
+  ATOMIC \
+  TEST_UTIL \
+  DSPCV
+
+# each dependency needs a directory definition
+#  the form is <DEPENDENCY NAME>_DIR
+#  for example:
+#    DEPENDENCIES = FOO
+#    FOO_DIR = $(HEXAGON_SDK_ROOT)/examples/common/foo
+#
+RPCMEM_DIR = $(HEXAGON_SDK_ROOT)/libs/common/rpcmem
+ATOMIC_DIR = $(HEXAGON_SDK_ROOT)/libs/common/atomic
+TEST_UTIL_DIR = $(HEXAGON_SDK_ROOT)/test/common/test_util
+DSPCV_DIR = $(HEXAGON_SDK_ROOT)/libs/fastcv/dspCV
+

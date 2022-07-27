@@ -1,0 +1,2 @@
+hexagon/asm_src/visqrt64_h.S:
+hexagon_Release_dynamic_toolv83_v66/visqrt64_h.o: hexagon/asm_src/visqrt64_h.S

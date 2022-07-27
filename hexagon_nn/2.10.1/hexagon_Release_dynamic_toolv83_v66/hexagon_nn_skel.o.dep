@@ -1,0 +1,18 @@
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.c:
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdErr.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/sys/types.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/bits/confname.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/hooks/unistd.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/pthread_types.h:
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.c
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: hexagon_Release_dynamic_toolv83_v66/hexagon_nn.h
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdErr.h
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/sys/types.h
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/bits/confname.h
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/hooks/unistd.h
+hexagon_Release_dynamic_toolv83_v66/hexagon_nn_skel.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/libs/common/qurt/computev66/include/posix/pthread_types.h

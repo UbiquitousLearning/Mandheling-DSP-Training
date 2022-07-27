@@ -1,0 +1,18 @@
+test/graphmain.c:
+android_Release_aarch64/hexagon_nn.h:
+test/graph_app.h:
+test/pmu_v66.h:
+test/pmu_v65_cdsp.h:
+test/pmu_adsp.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h:
+/data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h:
+test/options.def:
+android_Release_aarch64/graphmain.o: test/graphmain.c
+android_Release_aarch64/graphmain.o: android_Release_aarch64/hexagon_nn.h
+android_Release_aarch64/graphmain.o: test/graph_app.h
+android_Release_aarch64/graphmain.o: test/pmu_v66.h
+android_Release_aarch64/graphmain.o: test/pmu_v65_cdsp.h
+android_Release_aarch64/graphmain.o: test/pmu_adsp.h
+android_Release_aarch64/graphmain.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/stddef/AEEStdDef.h
+android_Release_aarch64/graphmain.o: /data2/xudaliang/projects/Qualcomm-environment/Hexagon_SDK/3.5.2/incs/remote.h
+android_Release_aarch64/graphmain.o: test/options.def

@@ -1,0 +1,6 @@
+test/imagenet_info.c:
+test/graph_app.h:
+test/options.def:
+android_Release_aarch64/imagenet_info.o: test/imagenet_info.c
+android_Release_aarch64/imagenet_info.o: test/graph_app.h
+android_Release_aarch64/imagenet_info.o: test/options.def

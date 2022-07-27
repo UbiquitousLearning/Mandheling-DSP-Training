@@ -1,0 +1,2 @@
+hexagon/asm_src/copyNto4_h.S:
+hexagon_Release_dynamic_toolv83_v66/copyNto4_h.o: hexagon/asm_src/copyNto4_h.S

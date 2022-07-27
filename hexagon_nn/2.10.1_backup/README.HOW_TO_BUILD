@@ -1,0 +1,45 @@
+Hexagon NN build instructions
+
+Note that in order to run code on target, you have to follow the SDK instructions for installing a testsig.  
+Try the "calculator" or other examples in the SDK to make sure you can execute on the DSP.
+
+1) Source the Hexagon SDK setup_sdk_env.sh script.
+
+2) Build the Hexagon NN dynamic library
+
+  Note: For Hexagon SDK 3.4.0 and 3.4.1, please use toolv82 instead of toolv83 in all build instructions below.
+
+  For SD820: make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v60
+  For SD660: make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v60
+  For SD835: make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v60
+  For SD845: (best performance): make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v65 V65=1
+  For SD845: (Don't use V65 code): make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v65
+  For SD670: (best performance): make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v65 V65=1
+  For SD670: (Don't use V65 code): make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v65
+  For SD855: make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v66 V66=1
+  For SD855: (Don't use V66 code): make tree VERBOSE=1 V=hexagon_Release_dynamic_toolv83_v66
+
+3) Build the Hexagon NN test app
+
+  By default, the test app will use the ADSP to run the graph.  If your target only supports HVX on the CDSP you will
+  want to specify CDSP_FLAG to run the graph on the CDSP instead.  Examples of build commands:
+
+  ADSP: make tree VERBOSE=1 V=android_Release
+  ADSP: make tree VERBOSE=1 V=android_Release_aarch64
+  CDSP: make tree VERBOSE=1 V=android_Release CDSP_FLAG=1
+  CDSP: make tree VERBOSE=1 V=android_Release_aarch64 CDSP_FLAG=1
+
+4) adb root ; adb remount
+
+5) adb push android_Release/ship/graph_app /data
+   or
+   adb push android_Release_aarch64/ship/graph_app /data
+
+6) adb push hexagon_Release_dynamic_toolv83_v60/ship/libhexagon_nn_skel.so /system/vendor/lib/rfsa/adsp/
+	 (Replace with the actual V= path that gets created from the appropriate option from above)
+
+7) adb shell /data/graph_app --help for info
+
+Example command line:
+   adb shell /data/graph_app --height 299 --width 299 --depth 3 --elementsize 4 --perfdump 1 /data/keyboard_299.dat 
+

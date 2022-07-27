@@ -1,0 +1,2 @@
+hexagon/ops/src/op_resizeunitsquare_f.c:
+hexagon_Release_dynamic_toolv83_v66/op_resizeunitsquare_f.o: hexagon/ops/src/op_resizeunitsquare_f.c

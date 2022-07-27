@@ -1,0 +1,6 @@
+hexagon/src/string_map.c:
+interface/hexagon_nn_ops.h:
+interface/ops.def:
+hexagon_Release_dynamic_toolv83_v66/string_map.o: hexagon/src/string_map.c
+hexagon_Release_dynamic_toolv83_v66/string_map.o: interface/hexagon_nn_ops.h
+hexagon_Release_dynamic_toolv83_v66/string_map.o: interface/ops.def

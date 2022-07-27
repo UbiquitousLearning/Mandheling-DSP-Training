@@ -1,0 +1,2 @@
+hexagon/ops/src/op_batchseqconf.c:
+hexagon_Release_dynamic_toolv83_v66/op_batchseqconf.o: hexagon/ops/src/op_batchseqconf.c

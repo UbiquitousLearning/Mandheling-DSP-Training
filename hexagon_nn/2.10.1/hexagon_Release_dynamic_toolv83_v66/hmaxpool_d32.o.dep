@@ -1,0 +1,2 @@
+hexagon/src/hmaxpool_d32.c:
+hexagon_Release_dynamic_toolv83_v66/hmaxpool_d32.o: hexagon/src/hmaxpool_d32.c
