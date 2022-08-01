@@ -176,17 +176,7 @@ ErrorCode NITI_GradientConv_Int8::onExecute(const std::vector<Tensor*>& inputs, 
     auto TinputDataPtr = input->host<int8_t>();
 
     auto output      = outputs[0];
-
-    MNN_PRINT("NITI_GradientConv_Int8 execute batch = %d\n", input->batch());
-    MNN_PRINT("NITI_GradientConv_Int8 execute channel = %d\n", input->channel());
-    MNN_PRINT("NITI_GradientConv_Int8 execute width = %d\n", input->width());
-    MNN_PRINT("NITI_GradientConv_Int8 execute height = %d\n", input->height());
-
-    MNN_PRINT("NITI_GradientConv_Int8 execute weight batch = %d\n", weight->batch());
-    MNN_PRINT("NITI_GradientConv_Int8 execute weight channel = %d\n", weight->channel());
-    MNN_PRINT("NITI_GradientConv_Int8 execute weight width = %d\n", weight->width());
-    MNN_PRINT("NITI_GradientConv_Int8 execute weight height = %d\n", weight->height());
-
+    
     auto mValid = reorderWeight(backend(), mCommon, weight, mWeightInt8);
     if(!mValid) {
         return NOT_SUPPORT;

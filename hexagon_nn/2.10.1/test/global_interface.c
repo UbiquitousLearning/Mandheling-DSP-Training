@@ -34,7 +34,6 @@ int hexagon_nn_global_teardown()
 
 int hexagon_nn_global_init()
 {
-	printf("global init!!\n");
     #pragma weak remote_session_control
     int ret = -1;
     if (remote_session_control) {

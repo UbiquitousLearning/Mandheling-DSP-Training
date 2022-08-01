@@ -44,7 +44,6 @@ void setDSPExecuteMode(bool mode) {
 void* LoadFunction(void* dl_handle, const char* name) {
   if (dl_handle == nullptr) return nullptr;
   auto* func_pt = dlsym(dl_handle, name);
-  MNN_PRINT("%s\n", name);
   if (func_pt == nullptr) {
     MNN_ERROR("Function %s is NULL", name);
   }

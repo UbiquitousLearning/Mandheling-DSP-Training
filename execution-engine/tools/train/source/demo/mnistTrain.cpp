@@ -248,6 +248,11 @@ static void train(std::shared_ptr<Module> model, std::string root) {
     MnistUtils::train(model, root);
 }
 
+static void dsp_train(std::shared_ptr<Module> model, std::string root) {
+    MnistUtils::dsp_train(model, root);
+}
+
+
 static void float_train(std::shared_ptr<Module> model, std::string root) {
     MnistUtils::float_train(model, root);
 }
@@ -327,7 +332,7 @@ public:
             bits = 8;
         }
         std::shared_ptr<Module> model(new NITIDSPInt8(bits));
-        train(model, root);
+        dsp_train(model, root);
         return 0;
     }
 };

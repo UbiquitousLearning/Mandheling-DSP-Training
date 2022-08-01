@@ -62,9 +62,6 @@ ErrorCode NITI_DSPBinary_Int8::onExecute(const std::vector<Tensor *> &inputs, co
     int owidth = output->width();
     int oheight = output->height();
 
-    for(int i=0;i<owidth*oheight;i++) 
-        MNN_PRINT("%d ", input->host<int8_t>()[i]);
-
     int osize = obatch*ochannel*owidth*oheight;
 
     // input layer

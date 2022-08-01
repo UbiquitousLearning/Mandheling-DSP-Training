@@ -172,8 +172,6 @@ public:
         int kernel_width  = layer->dilateX() * (kX - 1) + 1;
         int kernel_height = layer->dilateY() * (kY - 1) + 1;
 
-        MNN_PRINT("CONV kernel %d %d \n", kernel_width, kernel_height);
-
         int output_width  = 1;
         int output_height = 1;
 
@@ -223,7 +221,6 @@ public:
             outputBuffer.dim[2].extent = input->buffer().dim[3].extent;;
             outputBuffer.dim[3].extent = outputCount;
         } 
-        MNN_PRINT("NITI_ConvolutionSizeComputer: %d, %d, %d, %d\n", outputs[0]->length(0), outputs[0]->length(1), outputs[0]->length(2), outputs[0]->length(3));
         TensorUtils::getDescribe(outputs[0])->dimensionFormat = TensorUtils::getDescribe(inputs[0])->dimensionFormat;
 
         outputs[1]->buffer().dimensions = inputs[2]->buffer().dimensions;
@@ -267,8 +264,6 @@ public:
         }
         int kernel_width  = layer->dilateX() * (kX - 1) + 1;
         int kernel_height = layer->dilateY() * (kY - 1) + 1;
-
-        MNN_PRINT("CONV kernel %d %d \n", kernel_width, kernel_height);
 
         int output_width  = 1;
         int output_height = 1;
@@ -319,7 +314,6 @@ public:
             outputBuffer.dim[2].extent = input->buffer().dim[0].extent;;
             outputBuffer.dim[3].extent = outputCount;
         } 
-        MNN_PRINT("NITI_ConvolutionSizeComputer: %d, %d, %d, %d\n", outputs[0]->length(0), outputs[0]->length(1), outputs[0]->length(2), outputs[0]->length(3));
         TensorUtils::getDescribe(outputs[0])->dimensionFormat = TensorUtils::getDescribe(inputs[0])->dimensionFormat;
 
         outputs[1]->buffer().dimensions = inputs[2]->buffer().dimensions;
@@ -387,9 +381,6 @@ public:
         output_width = input_width + pH*2 - kW + 1;
         output_height  = input_height + pW*2 - kH + 1;
 
-        // MNN_PRINT("outputWidth  outputHeight = %d %d %d %d\n", output_width, input_width, kW, pW);
-        // MNN_PRINT("%d\n", op->main_as_NITI_CONV_Int8()->common()->outputCount());
-
         auto& outputBuffer         = outputs[0]->buffer();
         outputBuffer.type = inputTensor->getType();
         outputBuffer.dimensions    = inputTensor->buffer().dimensions;
@@ -405,7 +396,6 @@ public:
         }
         TensorUtils::getDescribe(outputs[0])->dimensionFormat = format;
 
-        // MNN_PRINT("NITI_DeconvolutionSizeComputer\n");
         return true;
     }
 
@@ -453,8 +443,6 @@ public:
         }
         int kernel_width  = layer->dilateX() * (kX - 1) + 1;
         int kernel_height = layer->dilateY() * (kY - 1) + 1;
-
-        // MNN_PRINT("CONV kernel %d %d \n", kernel_width, kernel_height);
 
         int output_width  = 1;
         int output_height = 1;
@@ -508,7 +496,6 @@ public:
             outputBuffer.dim[2].extent = output_height;
             outputBuffer.dim[3].extent = output_width;
         }
-        // MNN_PRINT("NITI_ConvolutionSizeComputer: %d, %d, %d, %d\n", outputs[0]->length(0), outputs[0]->length(1), outputs[0]->length(2), outputs[0]->length(3));
         TensorUtils::getDescribe(outputs[0])->dimensionFormat = TensorUtils::getDescribe(inputs[0])->dimensionFormat;
 
         outputs[1]->buffer().dimensions = 4;

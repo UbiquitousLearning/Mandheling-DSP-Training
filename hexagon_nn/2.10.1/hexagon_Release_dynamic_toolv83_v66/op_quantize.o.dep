@@ -1,2 +1,0 @@
-hexagon/ops/src/op_quantize.c:
-hexagon_Release_dynamic_toolv83_v66/op_quantize.o: hexagon/ops/src/op_quantize.c

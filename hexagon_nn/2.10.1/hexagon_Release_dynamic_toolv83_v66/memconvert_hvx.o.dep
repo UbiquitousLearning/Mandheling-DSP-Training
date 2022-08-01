@@ -1,2 +1,0 @@
-hexagon/asm_src/memconvert_hvx.S:
-hexagon_Release_dynamic_toolv83_v66/memconvert_hvx.o: hexagon/asm_src/memconvert_hvx.S

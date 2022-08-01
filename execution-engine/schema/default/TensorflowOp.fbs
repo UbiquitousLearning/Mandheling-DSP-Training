@@ -141,6 +141,7 @@ enum UnaryOpOperation : int {
     TANH = 30,
     HARDSWISH = 31,
     GELU = 32,
+    LOG2 = 33,
 }
 
 table UnaryOp {

@@ -1,2 +1,0 @@
-hexagon/asm_src/maxpool_3x3s2_d32.S:
-hexagon_Release_dynamic_toolv83_v66/maxpool_3x3s2_d32.o: hexagon/asm_src/maxpool_3x3s2_d32.S

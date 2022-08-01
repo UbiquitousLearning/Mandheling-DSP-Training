@@ -1,2 +1,0 @@
-hexagon/ops/src/op_topk_q.c:
-hexagon_Release_dynamic_toolv83_v66/op_topk_q.o: hexagon/ops/src/op_topk_q.c

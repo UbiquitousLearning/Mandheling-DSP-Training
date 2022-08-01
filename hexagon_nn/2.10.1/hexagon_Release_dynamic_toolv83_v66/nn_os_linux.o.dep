@@ -1,2 +1,0 @@
-hexagon/src/nn_os_linux.c:
-hexagon_Release_dynamic_toolv83_v66/nn_os_linux.o: hexagon/src/nn_os_linux.c

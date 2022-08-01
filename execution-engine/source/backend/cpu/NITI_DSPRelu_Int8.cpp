@@ -81,7 +81,6 @@ ErrorCode NITI_DSPRelu_Int8::onExecute(const std::vector<Tensor *> &inputs, cons
     auto& max_sizes1 = relulayer_output.back().max_sizes;
     for (int i = 0; i < 4; ++i) {
         max_sizes1[i] = inputs[0]->buffer().dim[i].extent;
-        MNN_PRINT("%d \n", inputs[0]->buffer().dim[i].extent);
     }
     relulayer_output.back().elementsize = sizeof(uint8_t);
 

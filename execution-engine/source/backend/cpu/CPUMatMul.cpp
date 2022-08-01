@@ -201,10 +201,7 @@ ErrorCode CPUMatMul::onExecute(const std::vector<Tensor*>& inputs, const std::ve
     if (inputs.size() > 2) {
         biasPtr = inputs[2]->host<float>();
     }
-    long begin = getCurrentTime();
     execute(APtr, BPtr, CPtr, biasPtr);
-    long end = getCurrentTime();
-    printf("execute cpu fp32 gradient matmul latency = %dms\n", end-begin);
     return NO_ERROR;
 }
 

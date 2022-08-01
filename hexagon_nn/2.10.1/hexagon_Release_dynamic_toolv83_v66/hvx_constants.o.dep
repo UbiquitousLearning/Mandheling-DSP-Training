@@ -1,2 +1,0 @@
-hexagon/src/hvx_constants.c:
-hexagon_Release_dynamic_toolv83_v66/hvx_constants.o: hexagon/src/hvx_constants.c

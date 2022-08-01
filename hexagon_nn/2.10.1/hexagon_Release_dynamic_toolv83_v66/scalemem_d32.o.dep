@@ -1,2 +1,0 @@
-hexagon/asm_src/scalemem_d32.S:
-hexagon_Release_dynamic_toolv83_v66/scalemem_d32.o: hexagon/asm_src/scalemem_d32.S

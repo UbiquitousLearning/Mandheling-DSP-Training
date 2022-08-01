@@ -381,7 +381,7 @@ enum UnaryOpOperation {
   UnaryOpOperation_MAX = UnaryOpOperation_LOG2
 };
 
-inline const UnaryOpOperation (&EnumValuesUnaryOpOperation())[33] {
+inline const UnaryOpOperation (&EnumValuesUnaryOpOperation())[34] {
   static const UnaryOpOperation values[] = {
     UnaryOpOperation_ABS,
     UnaryOpOperation_NEG,
@@ -415,7 +415,8 @@ inline const UnaryOpOperation (&EnumValuesUnaryOpOperation())[33] {
     UnaryOpOperation_SIGMOID,
     UnaryOpOperation_TANH,
     UnaryOpOperation_HARDSWISH,
-    UnaryOpOperation_GELU
+    UnaryOpOperation_GELU,
+    UnaryOpOperation_LOG2
   };
   return values;
 }
@@ -455,13 +456,14 @@ inline const char * const *EnumNamesUnaryOpOperation() {
     "TANH",
     "HARDSWISH",
     "GELU",
+    "LOG2",
     nullptr
   };
   return names;
 }
 
 inline const char *EnumNameUnaryOpOperation(UnaryOpOperation e) {
-  if (e < UnaryOpOperation_ABS || e > UnaryOpOperation_GELU) return "";
+  if (e < UnaryOpOperation_ABS || e > UnaryOpOperation_LOG2) return "";
   const size_t index = static_cast<int>(e);
   return EnumNamesUnaryOpOperation()[index];
 }
@@ -4718,6 +4720,7 @@ inline const flatbuffers::TypeTable *UnaryOpOperationTypeTable() {
     { flatbuffers::ET_INT, 0, 0 },
     { flatbuffers::ET_INT, 0, 0 },
     { flatbuffers::ET_INT, 0, 0 },
+    { flatbuffers::ET_INT, 0, 0 },
     { flatbuffers::ET_INT, 0, 0 }
   };
   static const flatbuffers::TypeFunction type_refs[] = {
@@ -4756,10 +4759,11 @@ inline const flatbuffers::TypeTable *UnaryOpOperationTypeTable() {
     "SIGMOID",
     "TANH",
     "HARDSWISH",
-    "GELU"
+    "GELU",
+    "LOG2"
   };
   static const flatbuffers::TypeTable tt = {
-    flatbuffers::ST_ENUM, 33, type_codes, type_refs, nullptr, names
+    flatbuffers::ST_ENUM, 34, type_codes, type_refs, nullptr, names
   };
   return &tt;
 }

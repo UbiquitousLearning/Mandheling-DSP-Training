@@ -24,7 +24,6 @@ public:
                 不能完全确定，但是感觉上默认是res[0]的值就会被认为是下一层的backwardOutput，也就是gradient 
         */
         auto inputs = expr->inputs();
-        MNN_PRINT("inputs size = %d\n", inputs.size());
         if (inputs.size() == 1) {
             return std::vector<Express::VARP>{nullptr};
         }

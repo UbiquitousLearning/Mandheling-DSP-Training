@@ -183,7 +183,6 @@ ErrorCode NITI_DSPReshapeGrad_Int8::GlobalExecute(const std::vector<Tensor *> &i
     auto& max_sizes1 = reshapelayer_output.back().max_sizes;
     for (int i = 0; i < 4; ++i) {
         max_sizes1[i] = outputs[0]->buffer().dim[i].extent;
-        MNN_PRINT("%d \n", outputs[0]->buffer().dim[i].extent);
     }
     reshapelayer_output.back().elementsize = sizeof(uint8_t);
 

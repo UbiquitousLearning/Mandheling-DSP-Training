@@ -12,6 +12,7 @@
 class MnistUtils {
 public:
     static void train(std::shared_ptr<MNN::Express::Module> model, std::string root);
+    static void dsp_train(std::shared_ptr<MNN::Express::Module> model, std::string root);
     static void float_train(std::shared_ptr<MNN::Express::Module> model, std::string root);
 };
 #endif

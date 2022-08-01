@@ -1,6 +1,0 @@
-test/options.c:
-test/graph_app.h:
-test/options.def:
-android_Release_aarch64/options.o: test/options.c
-android_Release_aarch64/options.o: test/graph_app.h
-android_Release_aarch64/options.o: test/options.def

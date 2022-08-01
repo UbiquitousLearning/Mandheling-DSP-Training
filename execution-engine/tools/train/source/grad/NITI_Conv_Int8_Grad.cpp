@@ -16,7 +16,6 @@ public:
     virtual std::vector<Express::VARP> onGrad(Express::EXPRP expr,
                                               const std::vector<Express::VARP>& backwardOutput) override {
         auto inputs = expr->inputs();
-        // MNN_PRINT("inputs size = %d\n", inputs.size());
         if (inputs.size() == 1) {
             return std::vector<Express::VARP>{nullptr};
         }

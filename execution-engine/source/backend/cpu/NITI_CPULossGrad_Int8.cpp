@@ -21,7 +21,6 @@
 namespace MNN {
 
 ErrorCode NITI_CPULossGrad_Int8::onResize(const std::vector<Tensor *> &inputs, const std::vector<Tensor *> &outputs) {
-    // MNN_PRINT("NITI_CPULossGrad_Int8 resize begin\n");
     
     auto input = inputs[0];
     auto output = outputs[0];

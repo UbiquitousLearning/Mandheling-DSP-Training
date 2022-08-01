@@ -1,2 +1,0 @@
-hexagon/src/prepare_utils.c:
-hexagon_Release_dynamic_toolv83_v66/prepare_utils.o: hexagon/src/prepare_utils.c

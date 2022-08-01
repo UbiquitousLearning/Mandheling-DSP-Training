@@ -1,2 +1,0 @@
-hexagon/ops/src/op_avgpool_f.c:
-hexagon_Release_dynamic_toolv83_v66/op_avgpool_f.o: hexagon/ops/src/op_avgpool_f.c

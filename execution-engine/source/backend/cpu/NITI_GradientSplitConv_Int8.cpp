@@ -80,7 +80,6 @@ NITI_GradientSplitConv_Int8::NITI_GradientSplitConv_Int8(Backend* backend, const
 
 
 ErrorCode NITI_GradientSplitConv_Int8::onResize(const std::vector<Tensor*>& inputs, const std::vector<Tensor*>& outputs) {
-    // MNN_PRINT("NITI_Conv_Int8 resize\n");
 
     CPUConvolution::onResize(inputs, outputs);
     auto input  = inputs[0];
@@ -190,7 +189,6 @@ ErrorCode NITI_GradientSplitConv_Int8::onResize(const std::vector<Tensor*>& inpu
     backend()->onReleaseBuffer(splitWeight.get(), Backend::DYNAMIC);
     backend()->onReleaseBuffer(tempOutput.get(), Backend::DYNAMIC);
     
-    // MNN_PRINT("NITI_Conv_Int8 resize end\n");
     return NO_ERROR;
 }
 

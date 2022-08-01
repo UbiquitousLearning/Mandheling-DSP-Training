@@ -1,2 +1,0 @@
-hexagon/ops/src/op_moments.c:
-hexagon_Release_dynamic_toolv83_v66/op_moments.o: hexagon/ops/src/op_moments.c

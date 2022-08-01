@@ -160,8 +160,6 @@ public:
 
         int fanIn  = dims[2]*dims[0]*dims[1];
         int fanOut = dims[3]*dims[0]*dims[1];
-
-        MNN_PRINT("weight init %d %d %d %d\n", dims[0], dims[1], dims[2], dims[3]);
        
         float std = sqrt(2.0f/(fanIn + fanOut));
         float *temp = new float[count];

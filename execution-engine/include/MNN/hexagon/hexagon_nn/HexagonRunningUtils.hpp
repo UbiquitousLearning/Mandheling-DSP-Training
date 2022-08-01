@@ -50,7 +50,6 @@ namespace MNN{
     inline const HexagonNN* generate_interface() {
         if(hexagon_nn == nullptr) {
             hexagon_nn = HexagonNNImplementation();
-            MNN_PRINT("Hexagon interface available.");
         }
         
         return hexagon_nn;
@@ -67,14 +66,12 @@ namespace MNN{
         if(!is_global_init) {
             int ret = hexagon_nn_->hexagon_nn_global_init();
             is_global_init = true;
-            MNN_PRINT("hexagon_nn_global_init = %d!\n", ret);
 
             int error = hexagon_nn_->hexagon_nn_config();
             if (error != 0) {
                 MNN_PRINT("hexagon_nn_config failed. Error: %d", error);
                 return ;
             }
-            MNN_PRINT("hexagon_nn_config success!\n");
 
             error = hexagon_nn_->hexagon_nn_set_powersave_level(0);
             if (error != 0) {
@@ -82,7 +79,6 @@ namespace MNN{
                                 error);
                 return ;
             }
-            MNN_PRINT("hexagon_nn_set_powersave_level success!\n");
         }
 
         // hexagon_nn_->hexagon_nn_global_init();
@@ -94,14 +90,12 @@ namespace MNN{
             MNN_PRINT("failed to init");
             return ;
         }
-        MNN_PRINT("hexagon_nn_init success!\n");
         error =
             hexagon_nn_->hexagon_nn_set_debug_level(graph_id_, 0);
         if (error != 0) {
             MNN_PRINT("Failed to set debug level, error: %d", error);
             return ;
         }
-        MNN_PRINT("hexagon_nn_set_debug_level success!\n");
         
     }
 

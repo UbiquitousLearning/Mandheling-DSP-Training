@@ -1,2 +1,0 @@
-test/graphinfo.c:
-android_Release_aarch64/graphinfo.o: test/graphinfo.c

@@ -65,7 +65,7 @@ hexagon/ops/src/op_concat_d32.c
 hexagon/ops/src/op_concat16_d32.c 
 hexagon/ops/src/op_maxpool_d32.c 
 hexagon/ops/src/op_convert_d32.c 
-hexagon/ops/src/op_supernode_new.c 
+hexagon/ops/src/niti_op_supernode_new.c 
 hexagon/ops/src/op_pad.c
 hexagon/ops/src/op_pad_d32.c  
 hexagon/ops/src/op_deconv.c 
@@ -114,7 +114,7 @@ hexagon/ops/src/op_prefree.c
 hexagon/ops/src/op_quantize.c 
 hexagon/ops/src/op_relu.c 
 hexagon/ops/src/op_requantize.c 
-hexagon/ops/src/op_supernode.c 
+hexagon/ops/src/niti_op_supernode.c 
 hexagon/ops/src/op_avgpool_f.c 
 hexagon/ops/src/op_biasadd_f.c 
 hexagon/ops/src/op_concat_f.c 

@@ -21,7 +21,6 @@
 namespace MNN {
 
 ErrorCode NITI_CPUSoftmax_Int8::onResize(const std::vector<Tensor *> &inputs, const std::vector<Tensor *> &outputs) {
-    // MNN_PRINT("NITI_CPU_Softmax resize begin\n");
 
     auto input           = inputs[0];
     const int dimensions = input->buffer().dimensions;

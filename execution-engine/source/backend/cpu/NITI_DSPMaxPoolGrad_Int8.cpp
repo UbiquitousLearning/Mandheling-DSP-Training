@@ -99,7 +99,6 @@ ErrorCode NITI_DSPMaxPoolGrad_Int8::onExecute(const std::vector<Tensor *> &input
 
     hexagon_nn_->hexagon_nn_append_node(graph_id_,     
             op_id,   OP_INPUT,   NN_PAD_NA,   empty_input.data(), 0,   inputlayer_output.data(), inputlayer_output.size());
-    // MNN_PRINT("op_id = %p\n", op_id);
 
     int input_op_id = op_id;
 

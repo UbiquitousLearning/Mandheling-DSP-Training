@@ -140,8 +140,6 @@ MNNUnaryExecute CPUUnary::selectForFloat(int type, int precision) {
 }
 
 static MNNUnaryExecute selectForInt(int type) {
-    MNN_PRINT("UNARY OP type = %d\n",type);
-    // NITI交叉熵用的是int8的，然后用的是迭代法近似求解
     switch (type) {
         case UnaryOpOperation_ABS:
             return _unaryOp<UnaryAbs<int32_t>, int32_t>;

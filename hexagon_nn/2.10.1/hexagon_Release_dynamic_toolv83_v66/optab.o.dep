@@ -1,2 +1,0 @@
-hexagon/ops/src/optab.c:
-hexagon_Release_dynamic_toolv83_v66/optab.o: hexagon/ops/src/optab.c
