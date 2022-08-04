@@ -276,7 +276,7 @@ void MnistUtils::dsp_train(std::shared_ptr<Module> model, std::string root) {
                     std::cout << "epoch: " << (epoch);
                     std::cout << "  " << moveBatchSize << " / " << dataLoader->size();
                     FILE *f = fopen("DSP.txt","w");
-                    fprintf(f, "%d\n",2);
+                    fprintf(f, "%d\n",0);
                     fclose(f);
                     std::cout << " loss: " << loss->readMap<float>()[0];
                     std::cout << " lr: " << rate;

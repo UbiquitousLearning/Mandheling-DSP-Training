@@ -163,7 +163,7 @@ ErrorCode NITI_DSPMaxPoolGrad_Int8::onExecute(const std::vector<Tensor *> &input
     // for (int i = 0; i < 4; ++i) {
         max_sizes1[0] = outputs[0]->buffer().dim[0].extent;
         max_sizes1[1] = outputs[0]->buffer().dim[1].extent;
-        max_sizes1[2] = outputs[0]->buffer().dim[2].extent;
+        max_sizes1[2] = outputs[0]->buffer().dim[2].extent + transposeinput_shape[5];
         max_sizes1[3] = outputs[0]->buffer().dim[3].extent + transposeinput_shape[7];
     // }
     maxpoolgradlayer_output.back().elementsize = sizeof(uint8_t);
@@ -172,27 +172,28 @@ ErrorCode NITI_DSPMaxPoolGrad_Int8::onExecute(const std::vector<Tensor *> &input
     hexagon_nn_->hexagon_nn_append_node(graph_id_,     
             op_id,   OP_QuantizedMaxPoolGrad_8,   NN_PAD_NA,   maxpoolgradlayer_input.data(), maxpoolgradlayer_input.size(),   maxpoolgradlayer_output.data(), maxpoolgradlayer_output.size());
 
-    // from d32 layer
-    transposeoutputlayer_input.push_back(hexagon_nn_input());
-    transposeoutputlayer_input.back().src_id = op_id;
-    transposeoutputlayer_input.back().output_idx = 0;
+    if (pad != 0) {
+        transposeoutputlayer_input.push_back(hexagon_nn_input());
+        transposeoutputlayer_input.back().src_id = op_id;
+        transposeoutputlayer_input.back().output_idx = 0;
 
-    transposeoutputlayer_output.push_back(hexagon_nn_output());
-    transposeoutputlayer_output.back().rank = 4;
-    auto& max_sizes3 = transposeoutputlayer_output.back().max_sizes;
-    // for (int i = 0; i < 4; ++i) {
-        max_sizes3[0] = outputs[0]->buffer().dim[0].extent;
-        max_sizes3[1] = outputs[0]->buffer().dim[1].extent;
-        max_sizes3[2] = outputs[0]->buffer().dim[2].extent;
-        max_sizes3[3] = outputs[0]->buffer().dim[3].extent;
-    // }
-    transposeoutputlayer_output.back().elementsize = sizeof(uint8_t);
+        transposeoutputlayer_output.push_back(hexagon_nn_output());
+        transposeoutputlayer_output.back().rank = 4;
+        auto& max_sizes3 = transposeoutputlayer_output.back().max_sizes;
+        // for (int i = 0; i < 4; ++i) {
+            max_sizes3[0] = outputs[0]->buffer().dim[0].extent;
+            max_sizes3[1] = outputs[0]->buffer().dim[1].extent;
+            max_sizes3[2] = outputs[0]->buffer().dim[2].extent;
+            max_sizes3[3] = outputs[0]->buffer().dim[3].extent;
+        // }
+        transposeoutputlayer_output.back().elementsize = sizeof(uint8_t);
 
+        op_id++;
 
-    op_id++;
-
-    hexagon_nn_->hexagon_nn_append_node(graph_id_,     
-            op_id,   OP_Convert_from_d32,   NN_PAD_NA,   transposeoutputlayer_input.data(), transposeoutputlayer_input.size(),   transposeoutputlayer_output.data(), transposeoutputlayer_output.size());
+        hexagon_nn_->hexagon_nn_append_node(graph_id_,     
+                op_id,   OP_Convert_from_d32,   NN_PAD_NA,   transposeoutputlayer_input.data(), transposeoutputlayer_input.size(),   transposeoutputlayer_output.data(), transposeoutputlayer_output.size());
+    
+    }
     
     
     
